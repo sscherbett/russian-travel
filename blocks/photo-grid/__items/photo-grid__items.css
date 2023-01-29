@@ -1,0 +1,21 @@
+.photo-grid__items {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 14px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .photo-grid__items {
+      gap: 11px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .photo-grid__items {
+      gap: 9px;
+    }
+  }
