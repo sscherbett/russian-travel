@@ -5,7 +5,6 @@
       "title website"
       "image paragraph";
     grid-template-columns: 460px 1fr;
-    display: grid;
     justify-content: center;
     row-gap: 48px;
     column-gap: 40px;
