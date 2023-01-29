@@ -5,4 +5,4 @@
 * grid-layout
 * flex-layout
 
-### Ссылка на Github pages - https://sscherbett.github.io/russian-travel/
+### Ссылка на Github pages: https://sscherbett.github.io/russian-travel/
