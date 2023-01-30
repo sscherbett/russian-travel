@@ -11,3 +11,5 @@
     max-width: 1280px;
     margin: auto;
   }
+
+  *,*::before,*::after {outline: 1px solid red}

@@ -12,9 +12,7 @@
       <img src="./images/__logo.svg" alt="Логотип" class="logo" />
       <ul class="header__lang-links">
         <li>
-          <a
-            href="#"
-            class="header__lang-link header__lang-link_underline links"
+          <a href="#" class="header__lang-link header__lang-link_active links"
             >Ru</a
           >
         </li>
@@ -33,7 +31,7 @@
         <figure class="lead__figure">
           <img
             src="./images/__vasha-polka.jpg"
-            alt="фото"
+            alt="путешествие на поезде"
             class="lead__image"
           />
           <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
@@ -75,100 +73,100 @@
           <li>
             <img
               src="./images/__item.jpg"
-              alt="фото1"
+              alt="вид из окна поезда"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-2.jpg"
-              alt="фото2"
+              alt="выше облаков"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-3.jpg"
-              alt="фото3"
+              alt="собака на сене"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-4.jpg"
-              alt="фото4"
+              alt="туман в лесу"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-5.jpg"
-              alt="фото5"
+              alt="на машине по Байкалу"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-6.jpg"
-              alt="фото6"
+              alt="берег и горы"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-7.jpg"
-              alt="фото7"
+              alt="горные пики"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-8.jpg"
-              alt="фото8"
+              alt="пешеходный переход"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-9.jpg"
-              alt="фото9"
+              alt="на вулкане"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-10.jpg"
-              alt="фото10"
+              alt="перед подъемом на гору"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-11.jpg"
-              alt="фото11"
+              alt="морские скалы"
               class="photo-grid__item"
             />
           </li>
           <li>
             <img
               src="./images/__item-12.jpg"
-              alt="фото12"
+              alt="сильный туман"
               class="photo-grid__item"
             />
           </li>
         </ul>
       </section>
       <!--places-->
-      <section class="places">
+      <section class="places" aria-label="места">
         <article class="place">
           <h3 class="place__title">Куршская коса</h3>
           <img
             src="./images/__kurshskaya.jpg"
-            alt="фото"
+            alt="водный пейзаж"
             class="place__image"
           />
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link links"
               href="http://park-kosa.ru"
@@ -195,9 +193,13 @@
         </article>
         <article class="place">
           <h3 class="place__title">Кольский</h3>
-          <img src="./images/__kolskiy.jpg" alt="фото" class="place__image" />
+          <img
+            src="./images/__kolskiy.jpg"
+            alt="снежный пейзаж"
+            class="place__image"
+          />
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link links"
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -225,9 +227,13 @@
         </article>
         <article class="place">
           <h3 class="place__title">Алтай</h3>
-          <img src="./images/__altay.jpg" alt="фото" class="place__image" />
+          <img
+            src="./images/__altay.jpg"
+            alt="густой лес"
+            class="place__image"
+          />
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link links"
               href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
@@ -253,9 +259,13 @@
         </article>
         <article class="place">
           <h3 class="place__title">Зимний Байкал</h3>
-          <img src="./images/__baikal.jpg" alt="фото" class="place__image" />
+          <img
+            src="./images/__baikal.jpg"
+            alt="лед Байкала"
+            class="place__image"
+          />
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link links"
               href="https://vk.com/baikalmile"
@@ -280,9 +290,13 @@
         </article>
         <article class="place">
           <h3 class="place__title">Карелия</h3>
-          <img src="./images/__karjala.jpg" alt="фото" class="place__image" />
+          <img
+            src="./images/__karjala.jpg"
+            alt="лес и озеро"
+            class="place__image"
+          />
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a
               class="place__link links"
               href="http://vodlozero.ru"
@@ -307,18 +321,16 @@
       </section>
       <!--cover-->
       <section class="cover">
-        <h2 class="cover__title">
-          <a
-            href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            target="_blank"
-            class="cover__title-link"
-            >До Байкала «на&nbsp;собаках»</a
-          >
-        </h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы
-          до Байкала на&nbsp;электричках.
-        </p>
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+          class="cover__title-link"
+          ><h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о&nbsp;Транссибе — путешествие
+            от&nbsp;столицы до Байкала на&nbsp;электричках.
+          </p>
+        </a>
       </section>
     </main>
     <!--footer-->
